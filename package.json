@@ -1,0 +1,21 @@
+{
+  "name": "ai-refund-agent-express",
+  "version": "1.0.0",
+  "description": "AI-powered refund automation agent with Gmail integration and human-in-the-loop approval",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "langchain": "latest",
+    "@langchain/groq": "latest",
+    "@langchain/langgraph": "latest",
+    "googleapis": "^140.0.0",
+    "zod": "^3.23.8",
+    "dotenv": "^16.4.5"
+  }
+}
