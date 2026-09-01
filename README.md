@@ -88,7 +88,6 @@ Gmail API   Human Approval
 ---
 
 ## ⚠ Known Limitations
-
 - Refunds are simulated
 - In-memory MemorySaver
 - Single Gmail account per session
