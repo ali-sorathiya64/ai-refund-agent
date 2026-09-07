@@ -16,7 +16,6 @@ const llm = new ChatGroq({
 
 const checkpointer = new MemorySaver();
 
-
 function buildTools(sessionId) {
     const getEmails = tool(
         async () => {
