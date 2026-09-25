@@ -2,7 +2,6 @@ import { tool } from "langchain";
 import * as z from "zod";
 
 
- 
 export function createRefundTool() {
   return tool(
     ({ emails }) => {
