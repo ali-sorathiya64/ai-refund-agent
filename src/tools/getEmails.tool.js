@@ -1,10 +1,7 @@
 import { tool } from "langchain";
 import { getGmailClient } from "../services/gmail.service.js";
 
-/**
- * Factory function — creates a get_emails tool bound to a specific
- * user's session, so each request only ever touches that user's inbox.
- */
+
 export function createGetEmailsTool(sessionId) {
   return tool(
     async () => {
