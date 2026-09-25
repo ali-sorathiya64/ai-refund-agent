@@ -8,8 +8,7 @@ const app = express();
 
 app.use(express.json());
 
-// Session cookie se hi hum user ko identify karte hain (login/signup system
-// abhi nahi hai — real product me isko proper user auth se replace karo)
+
 app.use(
     session({
         secret: config.sessionSecret,
