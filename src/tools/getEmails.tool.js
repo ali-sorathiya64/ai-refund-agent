@@ -1,7 +1,6 @@
 import { tool } from "langchain";
 import { getGmailClient } from "../services/gmail.service.js";
 
-
 export function createGetEmailsTool(sessionId) {
   return tool(
     async () => {
