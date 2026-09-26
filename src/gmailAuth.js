@@ -11,8 +11,7 @@ function getOAuthClient() {
     return new google.auth.OAuth2(client_id, client_secret, redirect_uris[0]);
 }
 
-// Google login URL banata hai. `state` me hum sessionId bhejte hain
-// taaki callback pe pata chale ye login kis session ke liye tha.
+
 export function getAuthUrl(state) {
     const client = getOAuthClient();
     return client.generateAuthUrl({
