@@ -1,7 +1,6 @@
 
 
-const tokens = new Map(); // sessionId -> { access_token, refresh_token, expiry_date, ... }
-
+const tokens = new Map(); 
 export function saveTokens(sessionId, tokenData) {
   tokens.set(sessionId, tokenData);
 }
