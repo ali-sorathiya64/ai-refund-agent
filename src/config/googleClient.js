@@ -5,7 +5,6 @@ const CREDENTIALS_PATH = "./credentials.json";
 
 export const SCOPES = ["https://www.googleapis.com/auth/gmail.modify"];
 
-
 export function getOAuthClient() {
   const credentials = JSON.parse(fs.readFileSync(CREDENTIALS_PATH, "utf-8"));
   const creds = credentials.web || credentials.installed;
