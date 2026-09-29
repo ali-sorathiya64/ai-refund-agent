@@ -11,8 +11,7 @@ const llm = new ChatGroq({
   temperature: 0,
 });
 
-// One agent instance per browser session (so each user's tools/state
-// stay isolated). In-memory — swap for a real cache/DB in production.
+
 const agents = new Map(); // sessionId -> agent
 const pendingInterrupts = new Map(); // threadId -> interrupt object
 
