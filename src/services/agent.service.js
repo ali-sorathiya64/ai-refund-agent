@@ -34,11 +34,7 @@ function getOrCreateAgent(sessionId) {
   return agent;
 }
 
-/**
- * Sends a user message to the agent for a given conversation thread.
- * Handles both normal turns and resuming after a human-in-the-loop
- * interrupt (e.g. approving/rejecting a refund).
- */
+
 export async function sendMessage({ sessionId, threadId, message }) {
   const agent = getOrCreateAgent(sessionId);
   const pending = pendingInterrupts.get(threadId);
