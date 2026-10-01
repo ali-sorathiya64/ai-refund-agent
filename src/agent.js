@@ -6,7 +6,6 @@ import { google } from "googleapis";
 import { config } from "./config.js";
 import { getAuthorizedClient } from "./gmailAuth.js";
 import { getSession } from "./tokenStore.js";
-
 const llm = new ChatGroq({
     apiKey: config.groqApiKey,
     model: "openai/gpt-oss-120b",
