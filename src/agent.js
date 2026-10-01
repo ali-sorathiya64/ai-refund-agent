@@ -12,7 +12,6 @@ const llm = new ChatGroq({
     temperature: 0,
 });
 
-
 const checkpointer = new MemorySaver();
 
 function buildTools(sessionId) {
