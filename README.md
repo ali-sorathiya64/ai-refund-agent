@@ -84,7 +84,7 @@ Gmail API   Human Approval
 - PostgreSQL checkpointer
 - React frontend
 - Gmail push notifications
-- User authentication
+- User authentication and idempotentcy 
 
 ---
 
