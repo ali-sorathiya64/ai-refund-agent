@@ -23,7 +23,7 @@
 
 Customer support teams spend hours manually reviewing refund requests.
 
-This AI agent automates refund detection using Gmail + LLM reasoning while keeping **humans in complete control** before any refund action is executed.
+This AI agent automates refund detection using Gmail + LLM reasoning while keeping **human in complete control** before any refund action is executed.
 
 ### Workflow
 
