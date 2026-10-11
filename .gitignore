@@ -1,7 +1,6 @@
 node_modules/
 .env
 credentials.json
-.env.example
 token.json
 *.log
 .DS_Store
