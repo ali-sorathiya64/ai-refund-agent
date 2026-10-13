@@ -30,7 +30,7 @@ function buildTools(sessionId) {
             const list = await gmail.users.messages.list({
                 userId: "me",
                 labelIds: ["INBOX"],
-                maxResults: 10,
+                maxResults: 15,
             });
 
             if (!list.data.messages?.length) {
