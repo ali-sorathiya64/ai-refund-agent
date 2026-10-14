@@ -1,5 +1,5 @@
 {
-  "name": "ai-refund-agent-express",
+  "name": "ai-refund-agent",
   "version": "1.0.0",
   "description": "AI-powered refund automation agent with Gmail integration and human-in-the-loop approval",
   "type": "module",
